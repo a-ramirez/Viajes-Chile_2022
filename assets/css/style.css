@@ -33,6 +33,7 @@ body {
 
 .navbar {
     background-color: #17a3b8;
+    font-weight: 400;
 
 }
 
@@ -89,6 +90,11 @@ footer {
 .redes {
     text-align: right;
 }
+
+.btn-form {
+    background-color: #17a3b8;
+}
+
 
 footer i {
     font-size: 3rem;
