@@ -82,7 +82,7 @@
                 <hr class="my-0">
                 <article class="row pt-5">
                     <div class="col-md-6 col-lg-4 px-4">
-                        <span><i class="fas fa-plane pt-1"></i></span>
+                        <span class="barra"><i class="fas fa-plane pt-1"></i></span>
                         <p class="py-4">Curabitur pellentesque eu quam ut sollicitudin. Duis pretium, orci id maximus
                             rhoncus, diam augue tincidunt orci, iaculis posuere magna purus sed odio. Suspendisse
                             tincidunt
@@ -98,7 +98,7 @@
 
                     <!-- Cambio de ubicación icono en mataño medio en una sola columna -->
                     <div class=" col-md-6 col-lg-4 px-4" id="cambio">
-                        <span><i class="fas fa-mountain pt-1"></i></span>
+                        <span class="barra"><i class="fas fa-mountain pt-1"></i></span>
                         <p class="py-4">Curabitur pellentesque eu quam ut sollicitudin. Duis pretium, orci id maximus
                             rhoncus, diam augue tincidunt orci, iaculis posuere magna purus sed odio. Suspendisse
                             tincidunt
@@ -125,11 +125,11 @@
                             Praesent ut luctus metus. Aliquam a malesuada lacus, in accumsan sapien. Sed facilisis
                             ligula et
                             porta lacinia.</p>
-                        <span><i class="fas fa-mountain pt-1"></i></span>
+                        <span class="barra"><i class="fas fa-mountain pt-1"></i></span>
                     </div>
 
                     <div class=" col-md-6 col-lg-4 px-4">
-                        <span><i class="fas fa-map-marked-alt pt-1"></i></span>
+                        <span class="barra"><i class="fas fa-map-marked-alt pt-1"></i></span>
                         <p class="py-4">Curabitur pellentesque eu quam ut sollicitudin. Duis pretium, orci id maximus
                             rhoncus, diam augue tincidunt orci, iaculis posuere magna purus sed odio. Suspendisse
                             tincidunt
@@ -150,132 +150,60 @@
             <!--Componente de boostraps Cards y tooltips en imagenes -->
             <h2 class="text-center pt-5" id="destacado">Destacados</h2>
             <hr>
-            <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#recipeCarousel" data-bs-slide-to="0" class="active bullet"
-                        aria-current="true" aria-label="Slide 1">
-                    </button>
-                    <button type="button" data-bs-target="#recipeCarousel" data-bs-slide-to="1" aria-label="Slide 2"
-                        class="bullet">
-                    </button>
-                </div>
-                <div class="carousel-inner" role="listbox">
-                    <div class="carousel-item active">
-                        <div class="row py-5">
-                            <div class="col-md-6 col-lg-4 col-xl-3 pb-4">
-                                <div class="card mx-auto">
-                                    <a href="" data-toggle="tooltip" title="Viaje recomendado por los usuarios"
-                                        data-placement="bottom"><img src="assets/img/card1.jpg" class="card-img-top" alt="..."></a>
-                                    <div class="card-body">
-                                        <h5 class="mostrar">Lorem ipsum dolor</h5>
-                                        <p class="card-text ocultar">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                            Vestibulum
-                                            rutrum at massa in consectetur.</p>
-                                    </div>
-                                </div>
-                            </div>
-            
-                            <div class="col-md-6 col-lg-4 col-xl-3 pb-4">
-                                <div class="card mx-auto">
-                                    <a href="" data-toggle="tooltip" title="Viaje recomendado por los usuarios"
-                                        data-placement="bottom"><img src="assets/img/card2.jpg" class="card-img-top" alt="..."></a>
-                                    <div class="card-body">
-                                        <h5 class="mostrar">Lorem ipsum dolor</h5>
-                                        <p class="card-text ocultar">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                            Vestibulum
-                                            rutrum at massa in consectetur.</p>
-                                    </div>
-                                </div>
-                            </div>
-            
-                            <div class="col-md-6 col-lg-4 col-xl-3 pb-4">
-                                <div class="card mx-auto">
-                                    <a href="" data-toggle="tooltip" title="Viaje recomendado por los usuarios"
-                                        data-placement="bottom"><img src="assets/img/card3.jpg" class="card-img-top" alt="..."></a>
-                                    <div class="card-body">
-                                        <h5 class="mostrar">Lorem ipsum dolor</h5>
-                                        <p class="card-text ocultar">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                            Vestibulum
-                                            rutrum at massa in consectetur.</p>
-                                    </div>
-                                </div>
-                            </div>
-            
-                            <div class="col-md-6 col-lg-4 col-xl-3 pb-4">
-                                <div class="card mx-auto">
-                                    <a href="" data-toggle="tooltip" title="Viaje recomendado por los usuarios"
-                                        data-placement="bottom"><img src="assets/img/card4.jpg" class="card-img-top" alt="..."></a>
-                                    <div class="card-body">
-                                        <h5 class="mostrar">Lorem ipsum dolor</h5>
-                                        <p class="card-text ocultar">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                            Vestibulum
-                                            rutrum at massa in consectetur.</p>
-                                    </div>
-                                </div>
-                            </div>
+            <div class="row py-5">
+                <div class="col-md-6 col-lg-4 col-xl-3 pb-4">
+                    <div class="card mx-auto">
+                        <a href="" data-toggle="tooltip" title="Viaje recomendado por los usuarios"
+                            data-placement="bottom"><img src="assets/img/card1.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <h5 class="mostrar">Lorem ipsum dolor</h5>
+                            <p class="card-text ocultar">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+                                rutrum at massa in consectetur.</p>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <div class="row py-5">
-                            <div class="col-md-6 col-lg-4 col-xl-3 pb-4">
-                                <div class="card mx-auto">
-                                    <a href="" data-toggle="tooltip" title="Viaje recomendado por los usuarios"
-                                        data-placement="bottom"><img src="assets/img/card1.jpg" class="card-img-top" alt="..."></a>
-                                    <div class="card-body">
-                                        <h5 class="mostrar">Lorem ipsum dolor</h5>
-                                        <p class="card-text ocultar">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                            Vestibulum
-                                            rutrum at massa in consectetur.</p>
-                                    </div>
-                                </div>
-                            </div>
-            
-                            <div class="col-md-6 col-lg-4 col-xl-3 pb-4">
-                                <div class="card mx-auto">
-                                    <a href="" data-toggle="tooltip" title="Viaje recomendado por los usuarios"
-                                        data-placement="bottom"><img src="assets/img/card2.jpg" class="card-img-top" alt="..."></a>
-                                    <div class="card-body">
-                                        <h5 class="mostrar">Lorem ipsum dolor</h5>
-                                        <p class="card-text ocultar">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                            Vestibulum
-                                            rutrum at massa in consectetur.</p>
-                                    </div>
-                                </div>
-                            </div>
-            
-                            <div class="col-md-6 col-lg-4 col-xl-3 pb-4">
-                                <div class="card mx-auto">
-                                    <a href="" data-toggle="tooltip" title="Viaje recomendado por los usuarios"
-                                        data-placement="bottom"><img src="assets/img/card3.jpg" class="card-img-top" alt="..."></a>
-                                    <div class="card-body">
-                                        <h5 class="mostrar">Lorem ipsum dolor</h5>
-                                        <p class="card-text ocultar">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                            Vestibulum
-                                            rutrum at massa in consectetur.</p>
-                                    </div>
-                                </div>
-                            </div>
-            
-                            <div class="col-md-6 col-lg-4 col-xl-3 pb-4">
-                                <div class="card mx-auto">
-                                    <a href="" data-toggle="tooltip" title="Viaje recomendado por los usuarios"
-                                        data-placement="bottom"><img src="assets/img/card4.jpg" class="card-img-top" alt="..."></a>
-                                    <div class="card-body">
-                                        <h5 class="mostrar">Lorem ipsum dolor</h5>
-                                        <p class="card-text ocultar">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                            Vestibulum
-                                            rutrum at massa in consectetur.</p>
-                                    </div>
-                                </div>
-                            </div>
+                </div>
+    
+                <div class="col-md-6 col-lg-4 col-xl-3 pb-4">
+                    <div class="card mx-auto">
+                        <a href="" data-toggle="tooltip" title="Viaje recomendado por los usuarios"
+                            data-placement="bottom"><img src="assets/img/card2.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <h5 class="mostrar">Lorem ipsum dolor</h5>
+                            <p class="card-text ocultar">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+                                rutrum at massa in consectetur.</p>
                         </div>
                     </div>
-
                 </div>
+    
+                <div class="col-md-6 col-lg-4 col-xl-3 pb-4">
+                    <div class="card mx-auto">
+                        <a href="" data-toggle="tooltip" title="Viaje recomendado por los usuarios"
+                            data-placement="bottom"><img src="assets/img/card3.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <h5 class="mostrar">Lorem ipsum dolor</h5>
+                            <p class="card-text ocultar">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+                                rutrum at massa in consectetur.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-6 col-lg-4 col-xl-3 pb-4">
+                    <div class="card mx-auto">
+                        <a href="" data-toggle="tooltip" title="Viaje recomendado por los usuarios"
+                            data-placement="bottom"><img src="assets/img/card4.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <h5 class="mostrar">Lorem ipsum dolor</h5>
+                            <p class="card-text ocultar">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+                                rutrum at massa in consectetur.</p>
+                        </div>
+                    </div>
+                </div>
+    
             </div>
         </section>
 
         <section class="container" id="formulario">
+        <section class="col-md-10 col-lg-8 mx-auto">
             <h2 class="text-center pt-5" id="destacado">Contacto</h2>
             <hr>
             <form>
@@ -295,6 +223,8 @@
                 <button type="submit" class="btn btn-primary">Submit</button>
               </form>
         </section>
+            
+        </section>
 
          <!--Uso de fontawesome -->
         <footer class="container-fluid mt-5">
@@ -302,10 +232,10 @@
                 <section class="row py-4">
                     <p class="col-6   my-auto px-3">Viajes Chile</p>
                     <div class="col-6   my-auto px-3 redes">
-                        <a class="text-white" href=""><i class="fab fa-github-square ps-3"></i></a>
-                        <a class="text-white" href=""><i class="fab fa-linkedin ps-3"></i></a>
-                        <a class="text-white" href=""><i class="fab fa-twitter-square ps-3"></i></a>
-                        <a class="text-white" href=""><i class="fab fa-facebook-square ps-3"></i></a>
+                        <a class="text-white" href=""><i class="fab fa-github-square ps-lg-3 ps-1"></i></a>
+                        <a class="text-white" href=""><i class="fab fa-linkedin ps-lg-3 ps-1"></i></a>
+                        <a class="text-white" href=""><i class="fab fa-twitter-square ps-lg-3 ps-1"></i></a>
+                        <a class="text-white" href=""><i class="fab fa-facebook-square ps-lg-3 ps-1"></i></a>
                     </div>
                 </section>
 
